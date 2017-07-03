@@ -1,0 +1,15 @@
+{
+    "name": "glacier-theme",
+    "title": "Glacier",
+    "description": "This theme is inspired by the Glacier theme for Sublime Text",
+    "homepage": "https://github.com/diomed/glacier4brackets",
+    "version": "1.0",
+    "author": "Kruno H. (http://github.com/diomed)",
+    "license": "MIT",
+    "theme": {
+        "file": "theme.less",
+        "dark": true,
+        "addModeClass": true
+    },
+    "keywords": ["glacier", "theme", "brackets"]
+}

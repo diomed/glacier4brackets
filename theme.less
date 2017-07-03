@@ -1,0 +1,149 @@
+/*Glacier theme for Brackets*/
+
+/* Colors */
+@background: #0e151b;
+@foreground: #efefef;
+
+@comment: #b3a7fe;
+@error: #cb253d;
+@keyword: #5eebb8;
+
+@white: snow;
+@light: lavender;
+
+@property:#F6BB42; 
+
+@blue: #329dcd;
+@light-blue: #6FC1FF;
+
+@purple: #B084EB;
+@green:#5eebb8;
+
+@red: #cb3a2e;
+
+@yellow: #fee380;
+@light-yellow: lighten(@yellow, 8%);
+
+@linenumber:#8996a8;
+@variable:#3fb383;
+@cm-string:#ffe792;
+@number:#fee380;
+@meta:#52eaa9;
+@error:#cb253d;
+@ivory:ivory;
+
+
+
+/* SWATCHES ---------------------------------------------------------------------- */
+.cm-builtin     { color: @blue; }
+.cm-def			{ color: @red; }
+.cm-header      { color: @light; }
+.cm-meta		{ color: @meta; }
+.cm-operator	{ color: @blue; }
+.cm-qualifier	{ color: @blue; }
+
+.cm-atom		{ color: @yellow; }
+.cm-link		{ color: @yellow; }
+.cm-number		{ color: @number; }
+.cm-string      { color: @cm-string; }
+.cm-string-2    { color: @blue; }
+
+.cm-variable    { color: @variable; }
+.cm-variable-2  { color: @ivory; }
+.cm-variable-3  { color: @keyword; }
+
+.cm-bracket		{ color: @ivory; }
+.cm-tag			{ color: @blue; 
+box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.5);
+-webkit-box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.5);}
+
+.cm-attribute   { color: @green; }
+.cm-property    { color: @property; }
+
+.cm-comment     { color: @comment; }
+.cm-error       { color: @error; }
+.cm-keyword     { color: @keyword; }
+
+.cm-unit {color:@meta;}
+
+
+//.cm-tag.css { color: @red; }
+// .cm span.cm-compilation { background: rgba(255, 255, 255, 0.12); }
+
+
+/* MISC ---------------------------------------------------------------------- */
+
+.CodeMirror, .CodeMirror-scroll {
+    background-color: @background;
+    color: @white;
+    font-family: Congenial Light, Neris Thin, Neue Kabel, Titillium, Exo, Menlo, Monospace, sans-serif;
+    font-size:18px;
+}
+
+.CodeMirror-gutters {
+	background: @background;
+}
+
+.CodeMirror-linenumber {
+	color: @linenumber;
+}
+
+.CodeMirror-cursor {
+    border-left-color: white !important;
+}
+
+.CodeMirror .CodeMirror-selected {
+    background: #333f48;
+    border-radius: 4px;
+}
+.CodeMirror-focused .CodeMirror-selected {
+    background: #1D242C;
+}
+/* Active Line */
+.CodeMirror-activeline-background {
+	background: @background !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+	color: rgba(99, 123, 156, 0.12);
+	background-color: transparent !important;
+}
+
+/* Matching Brackets and Tags */
+.CodeMirror-matchingbracket {
+	color: @light !important;
+	background: transparent !important;
+	border-bottom: 1px dashed @green !important;
+}
+
+.CodeMirror-matchingtag {
+	background: transparent !important;
+	border-bottom: 1px solid @comment !important;
+}
+
+/* Search Match */
+.CodeMirror-searching {
+    background: rgba(99, 123, 156, 0.1) !important;
+    outline: 1px solid rgba(255,255,255,0.5);
+}
+
+.CodeMirror-searching.searching-current-match {
+    background-color: @light-yellow !important;
+}
+.CodeMirror-searching.searching-last {
+	color: @light !important;
+}
+.CodeMirror-searching.searching-first {
+	color: @light !important;
+}
+
+/* Non-editor styling */
+
+#image-holder,
+#not-editor {
+    background-color: @background;
+}
+
+#image-holder {
+    color: @light;
+}
