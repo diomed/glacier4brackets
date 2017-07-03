@@ -25,8 +25,7 @@ and that is [Glacier theme for Sublime Text](https://github.com/shovelandsandbox
 3. Thank God for less and [lesstester](https://lesstester.com) and Brackets editor itself. Without it this wouldn't be possible
 4. See error, or something u'd like to fix? Send PR or write in issues
 
-Code in CSS
-![IMG42](https://img42.com/TC_Fq)
 
-Code in Js
-![IMG42](https://img42.com/YSkDq)
+[Code Screenshot of CSS](https://img42.com/TC_Fq)
+
+[Code screenshot of Js](https://img42.com/YSkDq)
