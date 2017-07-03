@@ -4,7 +4,7 @@ Glacier theme for Brackets
 This theme is totally based on one of coolest themes I've encountered,
 and that is [Glacier theme for Sublime Text](https://github.com/shovelandsandbox/glacier-theme)
 
-![screenshot](https://github.com/diomed/glacier4brackets/blob/master/screenshot/screenshot.png)
+![screenshot](https://github.com/diomed/glacier4brackets/blob/master/screenshot/imageedit_1_9694626245.png)
 
 ##  How to Use
 1. Open Brackets.
