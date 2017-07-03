@@ -15,7 +15,7 @@ and that is [Glacier theme for Sublime Text](https://github.com/shovelandsandbox
 6. `View` -> `Themes...` -> `Glacier`.
 7. Enjoy! :)
 
-##Notes
+## Notes
 
 1. Comment color is changed to purple so it is more visible. That was on purpose.
 2. Fonts are added - one you see on screenshot is premium font called Congenial Light.
