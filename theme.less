@@ -36,15 +36,15 @@
 
 /* SWATCHES ---------------------------------------------------------------------- */
 .cm-builtin     { color: @blue; }
-.cm-def			{ color: @red; }
+.cm-def		{ color: @red; }
 .cm-header      { color: @light; }
-.cm-meta		{ color: @meta; }
+.cm-meta	{ color: @meta; }
 .cm-operator	{ color: @blue; }
 .cm-qualifier	{ color: @blue; }
 
-.cm-atom		{ color: @yellow; }
-.cm-link		{ color: @yellow; }
-.cm-number		{ color: @number; }
+.cm-atom	{ color: @yellow; }
+.cm-link	{ color: @yellow; }
+.cm-number	{ color: @number; }
 .cm-string      { color: @cm-string; }
 .cm-string-2    { color: @blue; }
 
@@ -52,8 +52,8 @@
 .cm-variable-2  { color: @ivory; }
 .cm-variable-3  { color: @keyword; }
 
-.cm-bracket		{ color: @ivory; }
-.cm-tag			{ color: @blue; 
+.cm-bracket	{ color: @ivory; }
+.cm-tag		{ color: @blue; 
 box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.5);
 -webkit-box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.5);}
 
@@ -92,11 +92,11 @@ box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.5);
 }
 
 .CodeMirror .CodeMirror-selected {
-    background: #333f48;
+    background: lighten(@background, 5%);;
     border-radius: 4px;
 }
 .CodeMirror-focused .CodeMirror-selected {
-    background: #34495e;
+    background: lighten(@background, 5%);;
 }
 /* Active Line */
 .CodeMirror-activeline-background {
